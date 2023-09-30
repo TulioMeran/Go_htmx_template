@@ -1,0 +1,11 @@
+* {
+    font-size: 1rem;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.item {
+    cursor: pointer;
+}

@@ -1,0 +1,7 @@
+<div class="alert alert-secondary" hx-get="/check/done?name={{.Name}}&done={{.Done}}" hx-swap="outerHTML" >
+    {{ if .Done}}
+    <p class="text-black item done">{{.Name}}</p>
+    {{ else }}
+    <p class="text-black item" >{{.Name}}</p>
+    {{ end }}
+</div> 
